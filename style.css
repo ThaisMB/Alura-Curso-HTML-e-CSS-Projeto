@@ -1,0 +1,85 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.produtos {
+    margin: 0 auto;
+    width: 940px;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 2px #0f0f0f;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: slategrey;
+}
+
+.produtos li:hover h2 {
+    font-size: 33px;
+}
+
+.produtos li:active {
+    border-color: royalblue;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: mintcream;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:480px){
+    .caixa, .principal, .conteudo-beneficios,.mapa-conteudo, .video {
+        width:auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios{
+        width: 100%;
+    }
+
+    .produtos li{
+        display:block;
+        margin: 2%  20em;
+        width:50%;
+        
+    }
+}

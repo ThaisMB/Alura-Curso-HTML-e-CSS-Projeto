@@ -1,0 +1,46 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.caixa {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav li a:hover {
+    font-size: 26px;
+}
+
+nav li a:active {
+    color: royalblue;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: mintcream;
+    text-decoration: underline;
+}
+
+

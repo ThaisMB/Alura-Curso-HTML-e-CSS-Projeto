@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display:block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+form legend{
+    padding: 25px 0 0 0;
+}
+
+.input-padrao{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background:royalblue;
+    color: mintcream;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background:slategray;
+    transition: 1s all;
+    transform: scale(1.2) rotate(360deg);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background:#555555;
+    color:mintcream;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 25px;
+}
+
